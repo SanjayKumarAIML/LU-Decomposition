@@ -31,7 +31,7 @@ print(U)
 ```
 
 ## Output:
-![lu decomposition](./LUDECOMP.PNG)
+![LU](./LUDECOMP.png)
 
 
 ## Result:
@@ -74,7 +74,7 @@ print(x)
 ```
 
 ## Output:
-![lu decomposition](./LUDECOMP2.PNG)
+![LU](./LUDECOMP2.png)
 
 
 ## Result:
