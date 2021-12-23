@@ -8,11 +8,24 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Import numpy library using import statement.
-2. Import scipy package.
-3. Get input from user and pass it as an array.
-4. Get P, L U martix using scipy.linalg.lu().
-5. Print L and U matrix
+
+### Step 1:
+Import the numpy module to use the built-in functions for calculation.
+
+### Step 2:
+From scipy.linalg module import the lu function.
+
+### Step 3:
+Get inputs from the user and assign the values in np.array().
+
+### Step 4:
+Using the lu() function, we can find the L and U matrix.
+
+### Step 5:
+Print the obtained values.
+
+### Step 6:
+End the program.
 
 ## Program:
 ```
@@ -48,13 +61,27 @@ To write a program to solve a matrix using LU Decomposition
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Import numpy library using import statement.
-2. From scipy package import lu_factor() and lu_solve().
-3. Get two inputs from user and pass it as matrix array.
-4. Find lu and pivot value of first marix using lu_factor().
-5. Find solution of the matrix by using lu_solve() by passing lu, pivot values as first argument and second matrix as second argument.
-6. Print the solution.
 
+### Step 1:
+Import the numpy module to use the built-in functions for calculation.
+
+### Step 2:
+From scipy.linalg module import lu_factor and lu_solve functions for calculations.
+
+### Step 3:
+Get inputs from the user and assign the values in A and B in np.array().
+
+### Step 4:
+Using the lu_factor(), we can find the LU and pivot.
+
+### Step 5:
+Call the lu_solve function by passing lu and pivot as first argument and B as second argument.
+
+### Step 6:
+Print the variable.
+
+### Step 7:
+End the program.
 
 ## Program:
 ```
